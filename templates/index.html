@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OUT TECH DEVELOP - Mr.OUTTECH</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  margin:0; font-family:Arial; background:#0a3d62;
+  min-height:100vh; position:relative; color:#333;
+}
+/* YOUR LOGO AS BACKGROUND - WATERMARK */
+body::before{
+  content:""; position:fixed; top:0; left:0; width:100%; height:100%;
+  background-image: url("/static/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center 15%;
+  background-size: 600px;
+  opacity:0.14; z-index:-1;
+}
+.header{
+  background: rgba(10, 25, 49, 0.92); color:white; text-align:center; padding:45px 20px;
+}
+.logo-big{
+  width:110px; height:110px; border-radius:50%; border:4px solid #ff7a00;
+  object-fit:cover; background:white; box-shadow:0 0 20px rgba(255,122,0,0.5);
+}
+section{
+  background: rgba(255,255,255,0.98); max-width:950px; margin:25px auto;
+  padding:30px; border-radius:16px; box-shadow:0 8px 25px rgba(0,0,0,0.2);
+}
+h2{color:#0a3d62; border-left:5px solid #ff7a00; padding-left:12px;}
+.btn{background:#ff7a00;color:white;padding:12px 24px;border-radius:8px;text-decoration:none;display:inline-block;border:none;cursor:pointer;font-weight:bold;margin:5px;}
+.card{border:1px solid #e5e7eb;padding:20px;border-radius:12px;margin:15px 0;background:white;transition:0.3s}
+.card:hover{transform:translateY(-3px);box-shadow:0 5px 15px rgba(0,0,0,0.1)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:15px}
+input,textarea{width:100%;padding:13px;margin:8px 0;border:1px solid #ddd;border-radius:8px;box-sizing:border-box;font-size:15px}
+.footer{background:#0a1931;color:white;text-align:center;padding:20px;margin-top:30px}
+.tag{background:#0f4c75;color:white;padding:6px 12px;border-radius:20px;font-size:13px;margin:4px;display:inline-block}
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src="/static/logo.jpg" class="logo-big"><br><br>
+<h1>OUT <span style="color:#ff7a00">TECH</span> DEVELOP</h1>
+<p>Mr.OUTTECH • Python Developer • Shopify API Expert</p>
+<p>📍 Accra, Ghana | 📞 0256706978 | ✉️ outtech.web@gmail.com</p>
+<a href="#contact" class="btn">Hire Me</a> <a href="https://wa.me/233256706978" class="btn" style="background:#25D366">WhatsApp Me</a>
+</div>
+
+<section>
+<h2>About Me</h2>
+<p>Hello! I am <strong>Mr.OUTTECH</strong> from Accra, Ghana. I am passionate about building modern web applications using Python, HTML/CSS, Javascript, Java, Flask, and Shopify APIs. My mission is to help businesses grow with technology.</p>
+<p><span class="tag">Python</span> <span class="tag">Flask</span> <span class="tag">Shopify API</span> <span class="tag">MoMo API</span> <span class="tag">PyCharm</span> <span class="tag">HTML/CSS</span></p>
+</section>
+
+<section>
+<h2>My Services</h2>
+<div class="grid">
+<div class="card"><h3>🛒 Shopify + MoMo Integration</h3><p>Connect Shopify stores with MTN MoMo, Vodafone Cash for automatic payments in Ghana.</p></div>
+<div class="card"><h3>💻 Python Web Development</h3><p>Building fast, secure websites with Flask, Django and modern Python tools.</p></div>
+<div class="card"><h3>📦 E-commerce Solutions</h3><p>Full online store setup, product management, and custom app development.</p></div>
+</div>
+</section>
+
+<section>
+<h2>💰 My Pricing - Transparent & Fair</h2>
+<p>Special rates in GHS and in USD.</p>
+<div class="grid">
+<div class="card" style="text-align:center; border-top:4px solid #ed3c71">
+<h3>Starter</h3>
+<h1 style="font-size:26px; font-weight:700; margin:10px 0;color:#0bd699">$50-$150
+    <p style="font-size:14px; font-weight:600; margin:10px 0;color:#635757" ;>585 GHS-1,750 GHS</p>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";> ✅ Shopify store with personal domain</p>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";> ✅ Transaction Payment Active
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";> ✅ Direct order notification
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";> ✅ 1-3 Days Delivery
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";> ✅ No monthly fee
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";> ✅ Maintenance fee excluded</p>
+<a href="#contact" class="btn" style="background:rgb(13 211 120 / 0.57)">Choose Starter</a>
+</div>
+
+<div class="card" style="text-align:center; border-top:4px solid #ff7a00; transform:scale(1.05); box-shadow:0 10px 30px rgba(255,122,0,0.3)">
+<h3>⭐ Most Popular</h3>
+<h1 style="color:#ff7a00">$150-$300</h1>
+<p>1,750 GHS-3,490 GHS</p>
+    <P style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";>✅ Full store(website), App Andriod</P>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";>✅ Full Store MoMo / Bank Integration</p>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";>✅ Unlimited Products</p>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";>✅ Automatic Transaction Confirmation</p>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";>✅ 1-7Days + Support</p>
+<a href="#contact" class="btn">Choose Standard</a>
+</div>
+
+<div class="card" style="text-align:center; border-top:4px solid #0a3d62">
+<h3>Premium</h3>
+<h1 style="color:#0a3d62">$250-$1000</h1>
+<p>2,910 GHS-11,630 GHS</p>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";>✅ Custom Web / App IOS/Andriod</p>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";>✅ Custom Python App</p>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";>✅ Full E-commerce Build</p>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";>✅ Admin Dashboard</p>
+    <p style="font-size:18px; font-weight:600; line-height:1.4; text-align:left; 0;color:#595857";>✅ 3-15 Days + 1 Month Support with guild video</p>
+<a href="#contact" class="btn" style="background:#0a3d62">Choose Premium</a>
+</div>
+</div>
+<p style="text-align:center; margin-top:20px;"><strong>Need something different?</strong> <a href="https://wa.me/233256706978">Chat me for custom quote - FREE</a></p>
+</section>
+
+<section id="contact">
+<h2>Contact Me - Direct Email</h2>
+<p>Fill this form, message will come directly to <strong>outtech.web@gmail.com</strong></p>
+<form action="https://formsubmit.co/outtech.web@gmail.com" method="POST" class="card">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="New Client from OUT TECH Website!">
+<input type="text" name="name" placeholder="Your Full Name" required>
+<input type="email" name="email" placeholder="Your Email Address" required>
+<input type="text" name="phone" placeholder="Your Phone Number">
+<textarea name="message" rows="5" placeholder="How can I help you?" required></textarea>
+<button type="submit" class="btn">Send Message to Mr.OUTTECH</button>
+</form>
+</section>
+
+<div class="footer">
+<p>© 2026 OUT TECH DEVELOP - Built with PyCharm & Python by Mr.OUTTECH - Accra, Ghana</p>
+</div>
+
+</body>
+</html>
